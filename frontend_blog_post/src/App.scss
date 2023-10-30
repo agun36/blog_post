@@ -1,0 +1,30 @@
+.nav_input{
+  border-radius: 45%;
+}
+
+/* Add this CSS in your stylesheet or style tag */
+@media (max-width: 600px) {
+  .display-off{
+    display: none;
+  }
+  #mobile_dropdown{
+    display: block;
+  }
+}
+.bird_post_description{
+  position: absolute;
+  left: calc(50% - 100px);
+  top: calc(32% - 50px);
+}
+.description_header{
+  background-image: url('./Components/Statics/Images/wave.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 75vh;
+  width: 100%;
+}
+/* The following line can be included in a src/App.scss */
+$theme-colors: (
+  "primary": #0074d9,
+  "danger": #ff4136
+);
